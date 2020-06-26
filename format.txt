@@ -1,0 +1,20 @@
+for consistency -> add this to settings.json
+
+{  
+  "workbench.colorTheme": "Bear Theme",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "[javascript, javascriptreact, typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "prettier.disableLanguages": ["js"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "prettier.eslintIntergration": true,
+  "window.zoomLevel": 0,
+  "editor.suggestSelection": "first"
+}
